@@ -33,7 +33,7 @@
 }
 
 .browser-mock:after{
-  content: 'http://www.coltontbrown.com';
+  content: attr(website);
   position: absolute;
   top: 8px;
   height: 15px;
